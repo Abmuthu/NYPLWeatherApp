@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NYPLWeatherApp</string>
+    <string name="max_label">Max: </string>
+    <string name="unit_value"> F</string>
+    <string name="min_label">Min: </string>
+    <string name="date_format">MM-dd-yyyy</string>
+    <string name="max_value">%.2f</string>
+    <string name="min_value">%.2f</string>
+    <string name="refresh_title">refresh</string>
+    <string name="list_key_json">list</string>
+    <string name="date_key_json">dt</string>
+    <string name="main_key_json">main</string>
+    <string name="temp_max_key_json">temp_max</string>
+    <string name="temp_min_key_json">temp_min</string>
+    <string name="url_scheme">http</string>
+    <string name="url_authority">samples.openweathermap.org</string>
+    <string name="url_query_zip">zip</string>
+    <string name="url_query_id">appid</string>
+    <string name="url_path_data">data</string>
+    <string name="url_path_version">2.5</string>
+    <string name="url_path_forecast">forecast</string>
+</resources>

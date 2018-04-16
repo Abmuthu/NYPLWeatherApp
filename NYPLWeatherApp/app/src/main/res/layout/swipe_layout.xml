@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_date"
+        tools:text="Date"
+        style="@style/DateStyle"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        style="@style/RootStyle">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            style="@style/RootStyle">
+            <TextView
+                style="@style/MaxLableStyle"/>
+            <TextView
+                tools:text="max"
+                android:id="@+id/tv_high_temp"
+                style="@style/TempValueStyle" />
+            <TextView
+                android:text="@string/unit_value"
+                style="@style/TempStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            style="@style/RootStyle">
+            <TextView
+                style="@style/MinLableStyle"/>
+            <TextView
+                tools:text="min"
+                android:id="@+id/tv_low_temp"
+                style="@style/TempValueStyle"/>
+            <TextView
+                android:text="@string/unit_value"
+                style="@style/TempStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RootStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TempStyle" parent="RootStyle">
+        <item name="android:textSize">@dimen/temp_value_text_size</item>
+    </style>
+
+    <style name="MaxLableStyle" parent="TempStyle">
+        <item name="android:text">@string/max_label</item>
+        <item name="android:textColor">@color/maxLabel</item>
+    </style>
+
+    <style name="MinLableStyle" parent="TempStyle">
+        <item name="android:text">@string/min_label</item>
+        <item name="android:textColor">@color/minLabel</item>
+    </style>
+
+    <style name="TempValueStyle" parent="TempStyle">
+        <item name="android:paddingLeft">@dimen/temp_value_left_padding</item>
+        <item name="android:paddingRight">@dimen/temp_value_right_pading</item>
+    </style>
+
+    <style name="DateStyle" parent="RootStyle">
+        <item name="android:textSize">@dimen/date_text_size</item>
+        <item name="android:layout_marginTop">@dimen/date_top_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="RootStyle">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+</resources>

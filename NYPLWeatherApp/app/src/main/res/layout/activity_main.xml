@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muthukumaranpk.nyplweatherapp.controller.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/weather_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@style/ProgressBarStyle"/>
+
+
+</RelativeLayout>
